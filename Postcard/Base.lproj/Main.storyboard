@@ -68,6 +68,12 @@
                                     <action selector="sendMailButtonPress:" destination="IOV-ua-pxy" eventType="touchUpInside" id="vi4-XH-Iy5"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Apw-9g-Q0O">
+                                <rect key="frame" x="16" y="182" width="192" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -75,6 +81,7 @@
                         <outlet property="EnterMessageTextfield" destination="lXa-m5-uz9" id="g0t-m0-QTs"/>
                         <outlet property="EnterNameTextfield" destination="ePF-qd-rPO" id="P1R-FX-UGR"/>
                         <outlet property="MessageLabel" destination="wCO-as-Aqy" id="PYG-yp-lfr"/>
+                        <outlet property="NameLabel" destination="Apw-9g-Q0O" id="4fJ-Rf-8rU"/>
                         <outlet property="enterMessageTextfield" destination="lXa-m5-uz9" id="Btb-tM-AhS"/>
                         <outlet property="enterNameTextfield" destination="ePF-qd-rPO" id="Sit-Ek-VQ6"/>
                         <outlet property="mailButton" destination="uXN-86-2Bc" id="WHi-cw-1tr"/>
@@ -108,7 +115,7 @@
                     </state>
                 </button>
             </objects>
-            <point key="canvasLocation" x="436.5" y="415"/>
+            <point key="canvasLocation" x="-345" y="496"/>
         </scene>
     </scenes>
     <resources>
